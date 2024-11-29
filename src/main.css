@@ -282,7 +282,7 @@ nav.header .a:hover ~ .cursor {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    bottom: 2rem;
+    bottom: 3rem;
 
     -moz-user-select: none;
 	-webkit-user-select: none;
@@ -436,7 +436,7 @@ nav.header .a:hover ~ .cursor {
 .third>h1{
     font-size: 12vw;
     font-weight: 100;
-    letter-spacing: -6px;
+    letter-spacing: 0.2em;
     color:whitesmoke;
     margin: 40px 0;
     padding: 0;
