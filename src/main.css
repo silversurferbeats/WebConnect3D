@@ -277,11 +277,12 @@ nav.header .a:hover ~ .cursor {
     text-align: center;
     width: 100%;
     display: flex;
-    height: 120vh;
+    height: 100vh;
     align-content: center;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    bottom: 2rem;
 
     -moz-user-select: none;
 	-webkit-user-select: none;
@@ -289,8 +290,6 @@ nav.header .a:hover ~ .cursor {
 	user-select: none;
 	position: relative;
 	z-index: 1;
-    background: linear-gradient(0deg, rgba(5,5,5,1) 20%, rgba(5,5,5,0) 50%);
-
 }
 
 .first>h2 {
@@ -329,8 +328,8 @@ nav.header .a:hover ~ .cursor {
     width: 700px;
     line-height: 28px;
     font-weight: lighter;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 5px;
+    /* margin-bottom: 100px; */
     color: #c9c9c996;
     opacity: 0;
     transition: all 3.9s ease-in-out ;
